@@ -10,11 +10,11 @@
 ## Branch/Pull Request 규칙
 
 1. Branch명은 guesung/1-1, guesung/1-2 .. 이런 식으로 작성합니다.
-    - `/`앞에는 이름, 앞의 숫자는 몇 주차인지, 뒤의 숫자는 문제의 차례입니다. (월 : 1, 화 :2 ..)
+    - `/`앞에는 이름, 앞의 숫자는 몇 주차인지, 뒤의 숫자는 문제의 차례입니다. (월:1, 화:2 ..)
 2. 다른 팀원이 모두 Approve해야 Merge가 가능합니다.
     - 코드를 보며 피드백 / 좋은 점 등 코멘트는 환영입니다.
 3. Pull Request는 매일 밤 12시까지 올려야합니다. 
-4. Pull Reqeust 제목은 다음과 같은 형식을 따릅니다 : `[문제풀이 업로드] 이름 - n주차 m번`
+4. Pull Request의 제목은 다음과 같은 형식을 따릅니다 : `[문제풀이 업로드] 이름 - n주차 m번`
     - e.g. `[문제풀이 업로드] 박규성 - 1주차 3번`
 5. Squash Merge를 하며, commit규칙은 자유입니다.
 
@@ -23,8 +23,8 @@
 - 2023.12.25(월) ~ 2024.01.21(일)
 
 ## Members
-- [박규성]([github.com/guesung](https://github.com/guesung))
-- 
+- [박규성](https://github.com/guesung)
+- [박하은](https://github.com/pullingoff)
 - 
 - 
 - 
