@@ -24,10 +24,10 @@
 - 2023.12.25(월) ~ 2024.01.21(일)
 
 ## Members
-
+- [박규성](https://github.com/guesung)
 - [박규성](<[github.com/guesung](https://github.com/guesung)>)
 - [임유정](<[github.com/guesung](https://github.com/ujumglim)>)
--
+- [박하은](https://github.com/pullingoff)
 -
 -
 
