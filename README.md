@@ -25,11 +25,10 @@
 
 ## Members
 - [박규성](https://github.com/guesung)
-- [박규성](<[github.com/guesung](https://github.com/guesung)>)
-- [임유정](<[github.com/guesung](https://github.com/ujumglim)>)
+- [임유정](https://github.com/ujumglim)
 - [박하은](https://github.com/pullingoff)
--
--
+- [김지민](https://github.com/JMK1007)
+- [이정희](https://github.com/Lee-jh01)
 
 ## 문제
 
@@ -40,3 +39,13 @@
 3. [요격 시스템](https://school.programmers.co.kr/learn/courses/30/lessons/181188)
 4. [두 원 사이에 정수쌍](https://school.programmers.co.kr/learn/courses/30/lessons/181187)
 5. [연속된 부분 수열의 합](https://school.programmers.co.kr/learn/courses/30/lessons/178870)
+6. [과제 진행하기](https://school.programmers.co.kr/learn/courses/30/lessons/176962)
+7. [광물 캐기](https://school.programmers.co.kr/learn/courses/30/lessons/172927)
+
+### 2주차
+
+1. [리코쳇 로봇](https://school.programmers.co.kr/learn/courses/30/lessons/169199)
+2. [당구 연습](https://school.programmers.co.kr/learn/courses/30/lessons/169198)
+3. [혼자서 하는 틱택토](https://school.programmers.co.kr/learn/courses/30/lessons/160585)
+4. [미로 탈출](https://school.programmers.co.kr/learn/courses/30/lessons/159993)
+5. [호텔 대실](https://school.programmers.co.kr/learn/courses/30/lessons/155651)
