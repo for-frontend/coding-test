@@ -25,7 +25,7 @@
 
 ## Members
 - [박규성](https://github.com/guesung)
-- [임유정](https://github.com/ujumglim)
+- [임유정](https://github.com/ujunglim)
 - [박하은](https://github.com/pullingoff)
 - [김지민](https://github.com/JMK1007)
 - [이정희](https://github.com/Lee-jh01)
