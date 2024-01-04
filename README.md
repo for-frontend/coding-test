@@ -49,3 +49,14 @@
 3. [혼자서 하는 틱택토](https://school.programmers.co.kr/learn/courses/30/lessons/160585)
 4. [미로 탈출](https://school.programmers.co.kr/learn/courses/30/lessons/159993)
 5. [호텔 대실](https://school.programmers.co.kr/learn/courses/30/lessons/155651)
+6. [무인도 여행](https://school.programmers.co.kr/learn/courses/30/lessons/154540)
+7. [뒤에 있는 큰 수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/154539)
+
+---
+
+### 3주차
+
+1. [숫자 변환하기](https://school.programmers.co.kr/learn/courses/30/lessons/154538)
+2. [시소 짝꿍](https://school.programmers.co.kr/learn/courses/30/lessons/152996)
+3. [택배 배달과 수거하기](https://school.programmers.co.kr/learn/courses/30/lessons/150369)
+4. [이모티콘 할인행사](https://school.programmers.co.kr/learn/courses/30/lessons/150368)
