@@ -28,6 +28,7 @@ function solution(land) {
         let oil = 0;
         const queue = [{x:init_x, y:init_y}];
 
+        // 석유 덩어리 번호 저장
         visited[init_x][init_y] = oil_index;
 
         while(queue.length) {
@@ -39,7 +40,7 @@ function solution(land) {
                 oil++;
             }
             
-            // 좌우 탐색
+            // 상하좌우 탐색
             for (let i=0; i<4; i++) {
                 let nx = x + dx[i];
                 let ny = y + dy[i];
@@ -47,7 +48,8 @@ function solution(land) {
                 // 유효하지 않은 좌표일 경우 스킵
                 if (nx < 0 || nx >= n || ny < 0 || ny >= m || visited[nx][ny]) 
                     continue;
-
+                
+                // 탐색중인 부분이 석유면 그 부분도 표시
                 if (land[nx][ny] === 1) {
                     visited[nx][ny] = oil_index;
                     queue.push({x: nx, y: ny});
@@ -81,7 +83,7 @@ function solution(land) {
             sum += oilMap[item];
         })
 
-        max = sum > max ? sum : max;
+        max = Math.max(sum, max);
     }
     return max;
 }
@@ -101,3 +103,8 @@ P:
 
 
 # 3. 배운 점
+
+## 스터디에서 배운 내용
+
+보통 dfs는 한 길로 가서 끝까지 탐색하는 경우에서 하시는 편!
+그런데 위 문제는 한 곳으로 가서 상하좌우를 스택에 쌓고 확장하는 문제라 bfs가 더 적절해보였다
