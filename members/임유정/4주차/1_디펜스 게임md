@@ -4,14 +4,136 @@
 
 # 1. 내 풀이
 
+dfs (시간초과)
+
+```js
+// 무적권을 쓸지 말지 2가지 경우
+function solution(n, k, enemy) {
+  var answer = 0;
+  function dfs(index, n, k) {
+    // 적을 다 막았거나 더 이상 적을 막을 수 없으면 게임종료 (남은 병사 < 적 && 무적권이 없으면)
+    if (index >= enemy.length || (n < enemy[index] && !k)) {
+      answer = Math.max(answer, index);
+      return;
+    }
+
+    const currEnemyCount = enemy[index]; // 현재 적
+    // 남은 병사 >= 적일때
+    if (n >= currEnemyCount) {
+      const remainN = n - currEnemyCount;
+      dfs(index + 1, remainN, k); // 무적권을 안 쓰는 경우
+      if (k) {
+        dfs(index + 1, n, k - 1); // 무적권을 쓰는 경우
+      }
+    }
+    // 남은 병사 < 적 일때 무적권이 있음
+    else {
+      if (k) {
+        dfs(index + 1, n, k - 1); // 무적권을 쓴 경우
+      }
+    }
+  }
+  dfs(0, n, k);
+  return answer;
+}
+```
+
+최대힙
+
+```js
+function solution(n, k, enemy) {
+  var answer = 0;
+  const heap = new MaxHeap(); // 최대 병사 순으로 저장하는 최대힙
+
+  for (const e of enemy) {
+    heap.push(e); // 사용한 병사 수 추가
+    n -= e; // 병사수 감소
+    // 남은 병사가 없는 경우
+    if (n < 0) {
+      // 무적권이 없으면 종료
+      if (!k) break;
+      // 무적권이 있으면 사용
+      n += heap.pop(); // 병사 다시 추가
+      k--;
+    }
+    answer++; // 라운드 추가
+  }
+  return answer;
+}
+
+class MaxHeap {
+  constructor() {
+    this.heap = [];
+  }
+  size = () => this.heap.length; // 큐의 길이
+  swap(a, b) {
+    [this.heap[a], this.heap[b]] = [this.heap[b], this.heap[a]];
+  }
+  getParentI = (i) => Math.floor((i - 1) / 2);
+  getLeftI = (i) => i * 2 + 1;
+  getRightI = (i) => i * 2 + 2;
+
+  push(i) {
+    this.heap.push(i); // 배열 마지막에 새로운 값 추가
+    // heapifyUp 아래에서 위로 정렬
+    let currI = this.size() - 1;
+    let parentI = this.getParentI(currI);
+    while (currI > 0 && this.heap[currI] > this.heap[parentI]) {
+      this.swap(currI, parentI);
+      currI = parentI;
+      parentI = this.getParentI(currI);
+    }
+  }
+
+  pop() {
+    if (this.heap.length === 0) return null; // pop할 원소가 없는 경우
+    if (this.heap.length === 1) return this.heap.pop();
+
+    const removed = this.heap[0];
+    this.heap[0] = this.heap.pop(); // 마지막 노드를 최상위 노드로 변경
+    // heapifyDown 위에서 아래로 정렬
+    let i = 0;
+    while (i < this.size()) {
+      // 주의!
+      const leftI = this.getLeftI(i);
+      const rightI = this.getRightI(i);
+      let bigI = leftI;
+      if (this.heap[leftI] < this.heap[rightI]) {
+        bigI = rightI;
+      }
+      if (this.heap[bigI] > this.heap[i]) {
+        this.swap(bigI, i);
+      }
+      i = bigI;
+    }
+    return removed;
+  }
+}
+```
+
 ## 풀이 방법
 
 ### 문제요점
 
-### 생각
+- n명의 병사
+- 적이 더 많으면 게임 종료
+- 무적권: 병사소모 없이 한 라운드를 막을 수 있음. k개
+- 최대 몇 라운드까지
+- 1,000,000,000 => logN
 
 ### 문제풀이
 
+- enemy를 순회하며 사용한 병사만큼 줄이고, 최대힙에 라운드마다 사용한 병사의 수를 push한다.
+- 병사가 없는 경우
+  - 무적권이 없으면 라운드를 종료한다
+  - 무적권이 있으면 무적권을 사용하고, 이전 라운드 중 최대로 많이 사용한 병사를 다시 더한다.
+
 # 2. 느낀 점
 
+- 초기에 dfs를 통해 무적권을 사용하는 경우/ 사용하지 않는 경우르 모두 탐색하는 방법을 생각했는데 N이 너무 커서 시간초과가 났다.
+  `지나온 라운드 중에서 가장 적의 수가 많았던 라운드에 무적권을 사용` 한다는 힌트를 보고
+  이전 까지 중 가장 많았던 병사 수를 찾기위해 최대힙을 사용한다는 것을 배웠다.
+
 # 3. 배운 점
+
+- 1,000,000,000 => logN. heap자료구조는 삽입, 꺼내기 연산이 O(logN)이다
