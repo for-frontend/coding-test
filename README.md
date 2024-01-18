@@ -60,3 +60,13 @@
 2. [시소 짝꿍](https://school.programmers.co.kr/learn/courses/30/lessons/152996)
 3. [택배 배달과 수거하기](https://school.programmers.co.kr/learn/courses/30/lessons/150369)
 4. [이모티콘 할인행사](https://school.programmers.co.kr/learn/courses/30/lessons/150368)
+5. [마법의 엘리베이터](https://school.programmers.co.kr/learn/courses/30/lessons/148653)
+6. [유사 칸토어 비트열](https://school.programmers.co.kr/learn/courses/30/lessons/148652)
+7. [테이블 해시 함수](https://school.programmers.co.kr/learn/courses/30/lessons/147354)
+
+---
+
+1. [디펜스 게임](https://school.programmers.co.kr/learn/courses/30/lessons/142085)
+2. [점 찍기](https://school.programmers.co.kr/learn/courses/30/lessons/140107)
+3. [귤 고르기](https://school.programmers.co.kr/learn/courses/30/lessons/138476)
+4. [숫자 카드 나누기](https://school.programmers.co.kr/learn/courses/30/lessons/135807)
