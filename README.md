@@ -66,7 +66,11 @@
 
 ---
 
+### 4주차
 1. [디펜스 게임](https://school.programmers.co.kr/learn/courses/30/lessons/142085)
 2. [점 찍기](https://school.programmers.co.kr/learn/courses/30/lessons/140107)
 3. [귤 고르기](https://school.programmers.co.kr/learn/courses/30/lessons/138476)
 4. [숫자 카드 나누기](https://school.programmers.co.kr/learn/courses/30/lessons/135807)
+5. [우박수열 정적분](https://school.programmers.co.kr/learn/courses/30/lessons/134239)
+6. [롤케이크 자르기](https://school.programmers.co.kr/learn/courses/30/lessons/132265)
+7. [택배상자](https://school.programmers.co.kr/learn/courses/30/lessons/131704)
