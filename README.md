@@ -25,6 +25,9 @@
 
 ## Members
 - [박규성](https://github.com/guesung)
+- [장원석](https://github.com/Wonchang0314)
+- [박진수](https://github.com/jinsupark4255)
+- [최훈오](https://github.com/Whoknow77)
 
 ## 문제
 
