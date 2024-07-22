@@ -21,7 +21,7 @@
 
 ## Members
 - [박규성](https://github.com/guesung)
-- [이현영]([https://github.com/guesung](https://github.com/hamo-o))
+- [이현영](https://github.com/hamo-o)
 
 ## 문제
 
