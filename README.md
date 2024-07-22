@@ -1,41 +1,34 @@
 # coding-test
 
+## 스터디의 목표
+
+1. 매일 코딩테스트 문제 푸는 습관을 들입니다.
+2. 외롭지 않게, 매일 동일한 문제를 풀고, PR을 올려 공유합니다.
+3. 매주 스터디 시간에 발표를 통해 본인이 푼 풀이에 대해 설명할 수 있는 연습을 합니다.
+4. 서로 피드백을 주고 받으며, 더 보완할 점, 더 나은 코드를 이야기합니다.
+    - 달콤한 칭찬보다는 “날카로운 질문”과 “보충할 점” 이야기하는 것을 지향합니다.
+
 ## 스터디 방식
 
-1. 매주 금요일, 프로그래머스 기준 Lv2 난이도의 문제를 6문제를 선택합니다.
+1. 스터디 전 주, 일요일까지 프로그래머스 기준 Lv2 난이도의 문제를 5문제를 선택합니다.
 2. 매일 github에 위에서 정한 문제를의 본인 풀이 + 설명을 업로드합니다.
-3. 매주 목요일 20시, 이번주에 푼 문제들로 발표 및 토론을 진행합니다.
-   1. 랜덤으로 한 명씩 배정하여 발표를 진행합니다.
-   2. 해당 문제에 대해 더 좋은 점/다른 풀이 등을 공유하며 토론을 진행합니다.
-
-<!-- ## Branch/Pull Request 규칙
-
-1. Branch명은 guesung/1-1, guesung/1-2 .. 이런 식으로 작성합니다.
-   - `/`앞에는 이름, 앞의 숫자는 몇 주차인지, 뒤의 숫자는 문제의 차례입니다. (월 : 1, 화 :2 ..)
-2. 다른 팀원이 모두 Approve해야 Merge가 가능합니다.
-   - 코드를 보며 피드백 / 좋은 점 등 코멘트는 환영입니다.
-3. Pull Request는 매일 밤 12시까지 올려야합니다.
-4. Pull Reqeust 제목은 다음과 같은 형식을 따릅니다 : `[문제풀이 업로드] 이름 - n주차 m번`
-   - e.g. `[문제풀이 업로드] 박규성 - 1주차 3번`
-5. Squash Merge를 하며, commit규칙은 자유입니다. -->
+3. 매주 목요일 스터디 전까지 다른 사람 풀이에 코멘트 1개 이상씩 달아줍니다.
+4. 매주 목요일 20시, 지난 주에 정한 문제들을 바탕으로 발표 및 토론을 진행합니다.
 
 ## 기간
 
-- 2023.06.24(월) ~ 2024.06.21(일)
+- 2023.07.22(월) ~ 2024.08.18(일)
 
 ## Members
 - [박규성](https://github.com/guesung)
-- [장원석](https://github.com/Wonchang0314)
-- [박진수](https://github.com/jinsupark4255)
-- [최훈오](https://github.com/Whoknow77)
+- [이현영]([https://github.com/guesung](https://github.com/hamo-o))
 
 ## 문제
 
 ### 1주차
 
-1. [[1차] 프렌즈4블록](https://school.programmers.co.kr/learn/courses/30/lessons/17679)
-2. [[1차] 뉴스 클러스터링](https://school.programmers.co.kr/learn/courses/30/lessons/17677)
-3. [예상 대진표](https://school.programmers.co.kr/learn/courses/30/lessons/12985)
-4. [영어 끝말잇기](https://school.programmers.co.kr/learn/courses/30/lessons/12981)
-5. [점프와 순간 이동](https://school.programmers.co.kr/learn/courses/30/lessons/12980)
-6. [배달](https://school.programmers.co.kr/learn/courses/30/lessons/12978)
+1. https://school.programmers.co.kr/learn/courses/30/lessons/92343
+2. https://school.programmers.co.kr/learn/courses/30/lessons/42892
+3. https://school.programmers.co.kr/learn/courses/30/lessons/72413
+4. https://school.programmers.co.kr/learn/courses/30/lessons/42860
+5. https://school.programmers.co.kr/learn/courses/30/lessons/42842
