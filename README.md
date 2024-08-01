@@ -6,7 +6,7 @@
 2. 외롭지 않게, 매일 동일한 문제를 풀고, PR을 올려 공유합니다.
 3. 매주 스터디 시간에 발표를 통해 본인이 푼 풀이에 대해 설명할 수 있는 연습을 합니다.
 4. 서로 피드백을 주고 받으며, 더 보완할 점, 더 나은 코드를 이야기합니다.
-    - 달콤한 칭찬보다는 “날카로운 질문”과 “보충할 점” 이야기하는 것을 지향합니다.
+   - 달콤한 칭찬보다는 “날카로운 질문”과 “보충할 점” 이야기하는 것을 지향합니다.
 
 ## 스터디 방식
 
@@ -20,6 +20,7 @@
 - 2023.07.22(월) ~ 2024.08.18(일)
 
 ## Members
+
 - [박규성](https://github.com/guesung)
 - [이현영](https://github.com/hamo-o)
 
@@ -32,3 +33,11 @@
 3. https://school.programmers.co.kr/learn/courses/30/lessons/72413
 4. https://school.programmers.co.kr/learn/courses/30/lessons/42860
 5. https://school.programmers.co.kr/learn/courses/30/lessons/42842
+
+### 2주차
+
+1. https://school.programmers.co.kr/learn/courses/30/lessons/68645
+2. https://school.programmers.co.kr/learn/courses/30/lessons/147354
+3. https://school.programmers.co.kr/learn/courses/30/lessons/64064
+4. https://school.programmers.co.kr/learn/courses/30/lessons/64062
+5. https://school.programmers.co.kr/learn/courses/30/lessons/172927
