@@ -41,3 +41,11 @@
 3. https://school.programmers.co.kr/learn/courses/30/lessons/64064
 4. https://school.programmers.co.kr/learn/courses/30/lessons/64062
 5. https://school.programmers.co.kr/learn/courses/30/lessons/172927
+
+### 3주차
+
+1. https://school.programmers.co.kr/learn/courses/30/lessons/250136
+2. https://school.programmers.co.kr/learn/courses/30/lessons/150369
+3. https://school.programmers.co.kr/learn/courses/30/lessons/148653
+4. https://school.programmers.co.kr/learn/courses/30/lessons/132265
+5. https://school.programmers.co.kr/learn/courses/30/lessons/12952
